@@ -1,6 +1,6 @@
 # Hybrid Fuzzy Machine Learning Security Assessment Framework
 
-This repository contains the implementation of the framework proposed in the manuscript:
+This repository contains the implementation of the research paper:
 
 "A Novel Explainable Hybrid Fuzzy Machine Learning Framework for Software and Data Security Risk Assessment"
 
@@ -10,20 +10,15 @@ This repository contains the implementation of the framework proposed in the man
 - Random Forest Feature Importance Learning
 - XGBoost Risk Prediction
 - SHAP Explainability Analysis
-- Security Risk Scoring and Optimization
+- UNSW-NB15 Cybersecurity Dataset
 
-## Dataset
+## Repository Structure
 
-UNSW-NB15 Dataset
+data/
+results/
+src/
 
-Official Dataset:
-https://research.unsw.edu.au/projects/unsw-nb15-dataset
-
-Recommended Citation:
-
-Moustafa, N. & Slay, J. (2015). UNSW-NB15: A Comprehensive Data Set for Network Intrusion Detection Systems. MilCIS 2015.
-
-## Software Environment
+## Requirements
 
 - Python 3.11
 - Scikit-learn 1.5
@@ -32,6 +27,20 @@ Moustafa, N. & Slay, J. (2015). UNSW-NB15: A Comprehensive Data Set for Network 
 - NumPy
 - Pandas
 
-## Reproducibility
+## Workflow
 
-This repository contains source code, preprocessing scripts, model training scripts, and explainability analysis required to reproduce the experimental workflow reported in the manuscript.
+1. Data Preprocessing
+2. Fuzzy Knowledge Modeling
+3. Random Forest Feature Importance Learning
+4. XGBoost Risk Prediction
+5. SHAP Explainability Analysis
+6. Final Security Risk Assessment
+
+## Dataset
+
+UNSW-NB15 Dataset
+
+## Authors
+
+Masood Ahmad
+GLA University, India
